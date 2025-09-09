@@ -1,0 +1,15 @@
+/* FILE: src/styles/hero.module.css */
+.hero {
+  padding-block: 4rem 3rem;
+  background: linear-gradient(180deg, var(--surface), transparent);
+}
+.title {
+  font-size: clamp(1.75rem, 2.5vw + 1rem, 3rem);
+  margin-bottom: .5rem;
+}
+.subtitle {
+  color: var(--muted);
+  max-width: 60ch;
+  margin-bottom: 1.25rem;
+}
+.ctas { display: flex; gap: .75rem; flex-wrap: wrap; }

@@ -1,0 +1,30 @@
+/* FILE: src/styles/contact.module.css */
+.contact { padding-block: 3rem; }
+
+.form {
+  display: grid;
+  gap: 1rem;
+  max-width: 720px;
+}
+
+.field { display: grid; gap: .35rem; }
+
+input, textarea {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: .6rem .75rem;
+  font: inherit;
+  background: var(--bg);
+}
+
+input:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.error {
+  color: #b91c1c;
+  font-size: .9rem;
+}
+
+.actions { margin-top: .5rem; }

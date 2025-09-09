@@ -1,0 +1,10 @@
+/* FILE: src/styles/layout.module.css */
+.siteWrapper {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 1 auto;
+}

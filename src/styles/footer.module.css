@@ -1,0 +1,21 @@
+/* FILE: src/styles/footer.module.css */
+.footer {
+  background: var(--surface);
+  padding-block: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+.h { margin-bottom: .5rem; font-size: 1.05rem; }
+
+.links { display: grid; gap: .35rem; }
+.links a { text-decoration: underline; text-underline-offset: 2px; }
+
+.meta { margin-top: 1.5rem; border-top: 1px dashed var(--border); padding-top: .75rem; color: var(--muted); }
+
+@media (min-width: 760px) {
+  .grid { grid-template-columns: 2fr 1fr 1fr; }
+}
